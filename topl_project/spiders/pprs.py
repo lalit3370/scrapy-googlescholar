@@ -19,6 +19,5 @@ class pprSpider(scrapy.Spider):
     def citation_page(self, response):
         papers = response.meta["papers"]
         for divs in response.css("div#gs_res_ccl_mid"):
-                    papers["cites"]= {
-                        "cit_title": [divs.css("h3.gs_rt a::text").extract_first()]}
+                papers["citations"]=divs.css("h3.gs_rt a::text").extract()
         return papers
