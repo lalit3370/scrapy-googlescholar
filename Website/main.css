@@ -1,0 +1,51 @@
+body,html{
+  height: 100%;
+}
+
+.container-fluid{
+  background-image: url("bgimgblur.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 875px;
+  }
+
+.display-3{
+  color: white;
+}
+#citlinkbtn{
+  border-style: none;
+  background-color: transparent;
+  color: black;
+}
+#myown{
+background-color: #343a40;
+}
+a.h3{
+  color: white;
+}
+p{
+  color:white;
+}
+.uimg{
+  border-radius: 50%;
+}
+label{
+  color:white;
+}
+/* .row.h-100.justify-content-center{
+background: #000;
+height: 100%;
+} */
+/* #temp1{
+  color: rgb(255, 0, 0);
+
+} */
+#temp1{
+  height:100%
+}
+#userdet{
+  padding: auto;
+  justify-content:center;
+}
