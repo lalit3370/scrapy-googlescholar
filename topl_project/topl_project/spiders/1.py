@@ -18,9 +18,8 @@ class pprSpider(scrapy.Spider):
     
     
     def start_requests(self):
-        url = "https://scholar.google.com/citations?user=ngT8wRgAAAAJ"
-        #url=self.url
-        client = ScraperAPIClient('2fc4e63d5f880644a1b7063583fdc796')
+        url=self.url
+        client = ScraperAPIClient('INSERT YOUR OWN SCRAPER API KEY')
         yield SplashRequest(client.scrapyGet(url), self.parse, endpoint='execute', args={'lua_source':self.script})
     
     def parse(self, response):
@@ -49,9 +48,8 @@ class CitSpider(scrapy.Spider):
     
     
     def start_requests(self):
-        #url=self.url
-        url = "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009"
-        client = ScraperAPIClient('2fc4e63d5f880644a1b7063583fdc796')
+        url=self.url
+        client = ScraperAPIClient('INSERT YOUR OWN SCRAPER API KEY')
         yield scrapy.Request(client.scrapyGet(url), self.parse)
     
     def parse(self, response):
