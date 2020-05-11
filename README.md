@@ -17,8 +17,7 @@ https://docs.docker.com/engine/install/ubuntu/
 1. sudo docker pull scrapinghub/splash
 5. Copy topl_project from my project to a directory of your
 choosing.
-6. For installing xampp, refer to this link https://vitux.com/how-
-to-install-xampp-on-your-ubuntu-18-04-lts-system/
+6. For installing xampp, refer to this link https://vitux.com/how-to-install-xampp-on-your-ubuntu-18-04-lts-system/
 7. Copy the ‘Website’ folder in my project files and paste it inside
 ‘htdocs’ folder which is present the xampp installation
 directory. It should be (/opt/lampp/htdocs/)
