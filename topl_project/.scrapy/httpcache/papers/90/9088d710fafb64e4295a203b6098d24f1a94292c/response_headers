@@ -1,0 +1,13 @@
+Date: Sun, 03 May 2020 18:29:02 GMT
+Expires: Sun, 03 May 2020 18:29:02 GMT
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: scholar
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: NID=203=npseWCD14kRQm7oAM_5UwwArVskXnsoaOwoj-6Qos9p_VmJMxUyMfU71kuRLx-KxSRhxo-YDD5ry2M8EdhQvNmrr5dvSfreEfObt6OO944aG8rXqEYi5wIuUTFsO4LxAJphdplra-et9ROy6zhFbURLK2lZcaC1wDtG5u5v0lDQ; expires=Mon, 02-Nov-2020 18:29:02 GMT; path=/; domain=.google.co.in; HttpOnly
+Set-Cookie: GSP=LM=1588530542:S=SF3OFCC3o4nMF0tK; expires=Tue, 03-May-2022 18:29:02 GMT; path=/; domain=scholar.google.co.in; HttpOnly
+Alt-Svc: h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,0 +1,76 @@
+2020-05-06 15:24:26 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/scrapy/core/engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "/home/lalit/.local/lib/python3.8/site-packages/scrapy_splash/middleware.py", line 167, in process_start_requests
+    for req in start_requests:
+  File "/run/media/lalit/Work/scrapy-googlescholar/topl_project/topl_project/spiders/1.py", line 22, in start_requests
+    url=self.url
+AttributeError: 'pprSpider' object has no attribute 'url'
+2020-05-06 15:24:33 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.com/citations?user=ngT8wRgAAAAJ> (referer: None)
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'name': ['Raghu Vamsi Potukuchi'], 'imgsrc': ['https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ngT8wRgAAAAJ&citpid=8']}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Systematic Design of Trust Management Systems for Wireless Sensor Networks: A Review', 'no_of_citation': '24', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009', 'year': '2014'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'A lightweight Sybil attack detection framework for Wireless Sensor Networks', 'no_of_citation': '22', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13676029927784182995', 'year': '2014'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'An improved trusted greedy perimeter stateless routing for wireless sensor networks', 'no_of_citation': '15', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3996275920302953948', 'year': '2014'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Sybil attack detection using sequential hypothesis testing in wireless sensor networks', 'no_of_citation': '15', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14887528606987290512', 'year': '2014'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Trust and location-aware routing protocol for wireless sensor networks', 'no_of_citation': '13', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3933772464495715077', 'year': '2016'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'DETECTING SYBIL ATTACKS IN WIRELESS SENSOR NETWORKS USING SEQUENTIAL ANALYSIS', 'no_of_citation': '12', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13114339957381841599', 'year': '2016'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Self Adaptive Trust Model for Secure Geographic Routing in Wireless Sensor Networks', 'no_of_citation': '12', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8067986820184966992', 'year': '2015'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Bt-gpsr: An integrated trust model for secure geographic routing in wireless sensor networks', 'no_of_citation': '12', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3199798381182763558', 'year': '2014'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Secure Data Aggregation and Intrusion Detection in Wireless Sensor Networks', 'no_of_citation': '8', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=632867018078538251', 'year': '2015'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'A Taxonomy of Key Management Schemes of Wireless Sensor Networks', 'no_of_citation': '7', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13363626497299167287', 'year': '2015'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Generalized trust model for cooperative routing in MANETs', 'no_of_citation': '5', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3925471142896768605', 'year': '2017'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Adaptive trust model for secure geographic routing in wireless sensor networks', 'no_of_citation': '5', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8835902544164365055', 'year': '2014'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'TRUST AWARE DATA AGGREGATION AND INTRUSION DETECTION SYSTEM FOR WIRELESS SENSOR NETWORKS', 'no_of_citation': '4', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8177388844649979516', 'year': '2016'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Performance analysis of range free localization methods for wireless sensor networks', 'no_of_citation': '3', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16709829526155910088', 'year': '2017'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'DV-HOP Based Hybrid Range-Free Localization Methods for Wireless Sensor Networks', 'no_of_citation': '2', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11114627224835787930', 'year': '2018'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Trust and reputation aware geographic routing method for wireless ad hoc networks', 'no_of_citation': '2', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14476446780471084787', 'year': '2018'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Trust aware cooperative optimised link state routing protocol', 'no_of_citation': '2', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17081579071436547014', 'year': '2017'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Trust aware cooperative routing method for WANETs', 'no_of_citation': '2', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13281975360342622006', 'year': '2016'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Performance analysis of trust based geographic routing protocols for Wireless Sensor Networks', 'no_of_citation': '2', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18028776335983486209', 'year': '2014'}
+2020-05-06 15:24:33 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=ngT8wRgAAAAJ>
+{'title': 'Detecting location-based attacks in wireless sensor networks using sequential analysis', 'no_of_citation': '1', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4849736304456295527', 'year': '2015'}
+2020-05-06 15:24:33 [scrapy] INFO: Closing spider (finished)
+2020-05-06 15:24:33 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 330,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 34400,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 7.705633,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 6, 9, 54, 33, 784855),
+ 'item_scraped_count': 21,
+ 'log_count/DEBUG': 22,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 55865344,
+ 'memusage/startup': 55865344,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 5, 6, 9, 54, 26, 79222)}
+2020-05-06 15:24:33 [scrapy] INFO: Spider closed (finished)

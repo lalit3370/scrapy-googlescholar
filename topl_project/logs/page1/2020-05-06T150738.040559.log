@@ -1,0 +1,76 @@
+2020-05-06 15:07:38 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/scrapy/core/engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "/home/lalit/.local/lib/python3.8/site-packages/scrapy_splash/middleware.py", line 167, in process_start_requests
+    for req in start_requests:
+  File "/run/media/lalit/Work/scrapy-googlescholar/topl_project/topl_project/spiders/1.py", line 22, in start_requests
+    url=self.url
+AttributeError: 'pprSpider' object has no attribute 'url'
+2020-05-06 15:07:40 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.com/citations?user=oy3ArZMAAAAJ> (referer: None)
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'name': ['Anand Kumar'], 'imgsrc': ['/citations/images/avatar_scholar_128.png']}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'The cost of treating community-acquired pneumonia', 'no_of_citation': '729', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17312103720451577185', 'year': '1998'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Immediate early and early lytic cycle proteins are frequent targets of the Epstein-Barr virus–induced cytotoxic T cell response', 'no_of_citation': '364', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6074017887358646662', 'year': '1997'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'What is the most appropriate radiologic scoring method for ankylosing spondylitis? A comparison of the available methods based on the Outcome Measures in Rheumatology Clinical\xa0…', 'no_of_citation': '356', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=126352893491513433,511983150692559063', 'year': '2004'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Treatment cost of acute exacerbations of chronic bronchitis', 'no_of_citation': '188', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2097084158246164084', 'year': '1999'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Search for Next-to-Minimal Supersymmetric Higgs Bosons in the ', 'no_of_citation': '123', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13063565737980072146,16029016551959756378', 'year': '2009'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'The large enriched germanium experiment for neutrinoless double beta decay (LEGEND)', 'no_of_citation': '112', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14724195991427711382', 'year': '2017'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Morphometric analysis of Gostani river basin in Andhra Pradesh State, India using spatial information technology', 'no_of_citation': '110', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=368580971133987076', 'year': '2010'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Extraction and validation of a new set of CMS PYTHIA8 tunes from underlying-event measurements', 'no_of_citation': '94', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11988602619479007669,9560916861994360883', 'year': '2019'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Effect of calcium level and phytase addition on ileal phytate degradation and amino acid digestibility of broilers fed corn-based diets', 'no_of_citation': '92', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9939016093014315232', 'year': '2014'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Inclusive search for supersymmetry using razor variables in pp collisions at√ s= 13 TeV', 'no_of_citation': '81', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8039201319341844603,569164484909691043', 'year': '2017'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Measurements of the associated production of a Z boson and b jets in pp collisions at ', 'no_of_citation': '72', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3873155797793902993,16813614004012401262,2445858287358845240', 'year': '2017'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Optimal power flow for a deregulated power system using adaptive real coded biogeography-based optimization', 'no_of_citation': '71', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4549822237737941286', 'year': '2015'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Search for supersymmetry in the all-hadronic final state using top quark tagging in ', 'no_of_citation': '68', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16894006013946552971', 'year': '2017'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Measurement of prompt and nonprompt charmonium suppression in ', 'no_of_citation': '66', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1527927620450712455,14781565531169620891', 'year': '2018'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Jet and underlying event properties as a function of charged-particle multiplicity in proton–proton collisions at ', 'no_of_citation': '65', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13433094660313765140', 'year': '2013'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Search for a Higgs boson decaying into γ⁎ γ→ ℓℓγ with low dilepton mass in pp collisions at s= 8 TeV', 'no_of_citation': '64', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4130747860250869325,11859502846689222927', 'year': '2016'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Search for resonant ', 'no_of_citation': '63', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11308571486449841286', 'year': '2016'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Measurement of the ', 'no_of_citation': '62', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6896484783202537709', 'year': '2014'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Measurement of masses in the ', 'no_of_citation': '62', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12051186243304022908,3061530878256887178', 'year': '2013'}
+2020-05-06 15:07:40 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/citations?user=oy3ArZMAAAAJ>
+{'title': 'Search for new phenomena in final states with two opposite-charge, same-flavor leptons, jets, and missing transverse momentum in pp collisions at ', 'no_of_citation': '61', 'citation_link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14464359173525029257,13632478653726415868', 'year': '2018'}
+2020-05-06 15:07:40 [scrapy] INFO: Closing spider (finished)
+2020-05-06 15:07:40 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 330,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 39011,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 2.659038,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 6, 9, 37, 40, 726757),
+ 'item_scraped_count': 21,
+ 'log_count/DEBUG': 22,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 62779392,
+ 'memusage/startup': 62779392,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 5, 6, 9, 37, 38, 67719)}
+2020-05-06 15:07:40 [scrapy] INFO: Spider closed (finished)

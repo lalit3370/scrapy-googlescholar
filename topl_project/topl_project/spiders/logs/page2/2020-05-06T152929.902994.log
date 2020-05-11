@@ -1,0 +1,54 @@
+2020-05-06 15:29:29 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/scrapy/core/engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "/home/lalit/.local/lib/python3.8/site-packages/scrapy_splash/middleware.py", line 167, in process_start_requests
+    for req in start_requests:
+  File "/run/media/lalit/Work/scrapy-googlescholar/topl_project/topl_project/spiders/1.py", line 52, in start_requests
+    url=self.url
+AttributeError: 'CitSpider' object has no attribute 'url'
+2020-05-06 15:29:32 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009> (referer: None)
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'An improved trusted greedy perimeter stateless routing for wireless sensor networks', 'authors': ['PR Vamsi', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Using trust and local reputation for group formation in the cloud of things', 'authors': ['G Fortino', 'F Messina', 'D Rosaci', 'GML Sarné']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Self adaptive trust model for secure geographic routing in wireless sensor networks', 'authors': ['PR Vamsi', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Bt-gpsr: An integrated trust model for secure geographic routing in wireless sensor networks', 'authors': ['PR Vamsi', 'PK Batra', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Trust and location-aware routing protocol for wireless sensor networks', 'authors': ['PR Vamsi', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Secure data aggregation and intrusion detection in wireless sensor networks', 'authors': ['PR Vamsi', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'A lightweight and dependable trust model for clustered wireless sensor networks', 'authors': []}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Adaptive trust model for secure geographic routing in wireless sensor networks', 'authors': ['PR Vamsi', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Trust aware data aggregation and intrusion detection system for Wireless Sensor Networks', 'authors': ['PR Vamsi', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] DEBUG: Scraped from <200 https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10438299327049367009>
+{'title': 'Generalized trust model for cooperative routing in MANETs', 'authors': ['PR Vamsi', 'K Kant']}
+2020-05-06 15:29:32 [scrapy] INFO: Closing spider (finished)
+2020-05-06 15:29:32 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 351,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 36124,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 2.235557,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 6, 9, 59, 32, 187241),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 11,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 60796928,
+ 'memusage/startup': 60796928,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 5, 6, 9, 59, 29, 951684)}
+2020-05-06 15:29:32 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,100 @@
+2020-05-04 16:56:48 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/scrapy/core/engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "/home/lalit/.local/lib/python3.8/site-packages/scrapy_splash/middleware.py", line 167, in process_start_requests
+    for req in start_requests:
+  File "/run/media/lalit/Work/scrapy-googlescholar/topl_project/topl_project/spiders/papers.py", line 8, in start_requests
+    yield scrapy.Request(url, self.parse)
+NameError: name 'url' is not defined
+2020-05-04 16:56:50 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ> (referer: None)
+2020-05-04 16:56:50 [scrapy] DEBUG: Filtered duplicate request: <GET https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2020-05-04 16:56:51 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=6059204940393187650> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:51 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:51 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=6059204940393187650>
+{'title': 'Maximally efficient protocols for direct secure quantum communication', 'no. of citation': '57', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=6059204940393187650', 'year': '2012'}
+2020-05-04 16:56:51 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16111157799813965269> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:51 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ>
+{'title': None, 'no. of citation': None, 'Citation Link': None, 'year': None}
+2020-05-04 16:56:51 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=1202314929445705489> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:51 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16111157799813965269>
+{'title': 'Applications of quantum cryptographic switch: various tasks related to controlled quantum communication can be performed using Bell states and permutation of particles', 'no. of citation': '55', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16111157799813965269', 'year': '2015'}
+2020-05-04 16:56:51 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=1202314929445705489>
+{'title': 'Controlled bidirectional remote state preparation in noisy environment: a generalized view', 'no. of citation': '57', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=1202314929445705489', 'year': '2015'}
+2020-05-04 16:56:51 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16132576040735860375> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:51 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16132576040735860375>
+{'title': 'Elements of quantum computation and quantum communication', 'no. of citation': '120', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16132576040735860375', 'year': '2013'}
+2020-05-04 16:56:51 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=10974913517642526736> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:52 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=10974913517642526736>
+{'title': 'A comparative study of protocols for secure quantum communication under noisy environment: single-qubit-based protocols versus entangled-state-based protocols', 'no. of citation': '38', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=10974913517642526736', 'year': '2016'}
+2020-05-04 16:56:52 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=17328529072594827951> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:52 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=17328529072594827951>
+{'title': 'Quantum cryptography: key distribution and beyond', 'no. of citation': '44', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=17328529072594827951', 'year': '2017'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=18290160052850279852> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=5585483484979617427> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16190416248621657774> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=13860872549808299543> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=514694416577010271> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=18290160052850279852>
+{'title': 'Hierarchical quantum communication', 'no. of citation': '42', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=18290160052850279852', 'year': '2013'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=5585483484979617427>
+{'title': 'Bidirectional controlled teleportation by using 5-qubit states: a generalized view', 'no. of citation': '60', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=5585483484979617427', 'year': '2013'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16190416248621657774>
+{'title': 'Design and experimental realization of an optimal scheme for teleportation of an n-qubit quantum state', 'no. of citation': '61', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16190416248621657774', 'year': '2017'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=1777167472061185268> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=13860872549808299543>
+{'title': 'Control of higher order antibunching', 'no. of citation': '45', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=13860872549808299543', 'year': '2006'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=514694416577010271>
+{'title': 'Experimental realization of nondestructive discrimination of Bell states using a five-qubit quantum computer', 'no. of citation': '41', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=514694416577010271', 'year': '2017'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=1777167472061185268>
+{'title': 'Two-step orthogonal-state-based protocol of quantum secure direct communication with the help of order-rearrangement technique', 'no. of citation': '43', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=1777167472061185268', 'year': '2014'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=14687441557616168997> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16098949864142459962> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=10263065237013279817> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=2221186481784067026> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=7396278942753050057> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=14687441557616168997>
+{'title': 'Semi-quantum communication: protocols for key agreement, controlled secure direct communication and dialogue', 'no. of citation': '38', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=14687441557616168997', 'year': '2017'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=18159620080930796488> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16098949864142459962>
+{'title': 'Single-mode and intermodal higher-order nonclassicalities in two-mode Bose-Einstein condensates', 'no. of citation': '38', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=16098949864142459962', 'year': '2014'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=10263065237013279817>
+{'title': 'Statistical mixtures of states can be more quantum than their superpositions: Comparison of nonclassicality measures for single-qubit states', 'no. of citation': '45', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=10263065237013279817', 'year': '2015'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=2221186481784067026>
+{'title': 'Phase-space interference of states optically truncated by quantum scissors: Generation of distinct superpositions of qudit coherent states by displacement of vacuum', 'no. of citation': '36', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=2221186481784067026', 'year': '2014'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=7396278942753050057>
+{'title': 'Classical and quantum oscillators of quartic anharmonicities: second-order solution', 'no. of citation': '37', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=7396278942753050057', 'year': '2001'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=13076215376117558950> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=18159620080930796488>
+{'title': 'On the group-theoretic structure of a class of quantum dialogue protocols', 'no. of citation': '46', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=18159620080930796488', 'year': '2013'}
+2020-05-04 16:56:53 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=13076215376117558950>
+{'title': 'Higher-order nonclassicalities in a codirectional nonlinear optical coupler: Quantum entanglement, squeezing, and antibunching', 'no. of citation': '47', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=13076215376117558950', 'year': '2014'}
+2020-05-04 16:56:58 [scrapy] DEBUG: Crawled (200) <GET https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=2623071277763319619> (referer: https://scholar.google.co.in/citations?hl=en&user=fQ54OcoAAAAJ)
+2020-05-04 16:56:58 [scrapy] DEBUG: Scraped from <200 https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=2623071277763319619>
+{'title': 'Protocols of quantum key agreement solely using Bell states and Bell measurement', 'no. of citation': '77', 'Citation Link': 'https://scholar.google.co.in/scholar?oi=bibs&hl=en&oe=ASCII&cites=2623071277763319619', 'year': '2014'}
+2020-05-04 16:56:58 [scrapy] INFO: Closing spider (finished)
+2020-05-04 16:56:58 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 11707,
+ 'downloader/request_count': 22,
+ 'downloader/request_method_count/GET': 22,
+ 'downloader/response_bytes': 695710,
+ 'downloader/response_count': 22,
+ 'downloader/response_status_count/200': 22,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 10.12612,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 4, 11, 26, 58, 129861),
+ 'item_scraped_count': 21,
+ 'log_count/DEBUG': 44,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 51802112,
+ 'memusage/startup': 51802112,
+ 'request_depth_max': 1,
+ 'response_received_count': 22,
+ 'scheduler/dequeued': 22,
+ 'scheduler/dequeued/memory': 22,
+ 'scheduler/enqueued': 22,
+ 'scheduler/enqueued/memory': 22,
+ 'start_time': datetime.datetime(2020, 5, 4, 11, 26, 48, 3741)}
+2020-05-04 16:56:58 [scrapy] INFO: Spider closed (finished)

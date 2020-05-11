@@ -1,0 +1,20 @@
+2020-05-06 14:59:24 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/scrapy/core/engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "/home/lalit/.local/lib/python3.8/site-packages/scrapy_splash/middleware.py", line 167, in process_start_requests
+    for req in start_requests:
+  File "/run/media/lalit/Work/scrapy-googlescholar/topl_project/topl_project/spiders/1.py", line 52, in start_requests
+    url=self.url
+AttributeError: 'CitSpider' object has no attribute 'url'
+2020-05-06 14:59:24 [scrapy] INFO: Closing spider (finished)
+2020-05-06 14:59:24 [scrapy] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.00818,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 6, 9, 29, 24, 181890),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 62402560,
+ 'memusage/startup': 62402560,
+ 'start_time': datetime.datetime(2020, 5, 6, 9, 29, 24, 173710)}
+2020-05-06 14:59:24 [scrapy] INFO: Spider closed (finished)
